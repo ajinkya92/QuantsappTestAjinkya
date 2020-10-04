@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FBFDFA2529D7A700D3082F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBFDF92529D7A700D3082F /* AppDelegate.swift */; };
+		18FBFDFC2529D7A700D3082F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBFDFB2529D7A700D3082F /* SceneDelegate.swift */; };
+		18FBFDFE2529D7A700D3082F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBFDFD2529D7A700D3082F /* ViewController.swift */; };
+		18FBFE012529D7A700D3082F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FBFDFF2529D7A700D3082F /* Main.storyboard */; };
+		18FBFE032529D7AA00D3082F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18FBFE022529D7AA00D3082F /* Assets.xcassets */; };
+		18FBFE062529D7AA00D3082F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18FBFE042529D7AA00D3082F /* LaunchScreen.storyboard */; };
+		18FBFE112529D7AA00D3082F /* QuantsappTestAjinkyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBFE102529D7AA00D3082F /* QuantsappTestAjinkyaTests.swift */; };
+		18FBFE1C2529D7AA00D3082F /* QuantsappTestAjinkyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBFE1B2529D7AA00D3082F /* QuantsappTestAjinkyaUITests.swift */; };
+		18FBFE352529D96700D3082F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBFE342529D96700D3082F /* Constants.swift */; };
+		18FBFE362529D96700D3082F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBFE342529D96700D3082F /* Constants.swift */; };
+		18FBFE372529D96700D3082F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBFE342529D96700D3082F /* Constants.swift */; };
+		18FBFE402529D9D000D3082F /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBFE3F2529D9D000D3082F /* ServiceManager.swift */; };
+		18FBFE412529D9D000D3082F /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBFE3F2529D9D000D3082F /* ServiceManager.swift */; };
+		18FBFE422529D9D000D3082F /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBFE3F2529D9D000D3082F /* ServiceManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18FBFE0D2529D7AA00D3082F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FBFDEE2529D7A700D3082F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FBFDF52529D7A700D3082F;
+			remoteInfo = QuantsappTestAjinkya;
+		};
+		18FBFE182529D7AA00D3082F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18FBFDEE2529D7A700D3082F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18FBFDF52529D7A700D3082F;
+			remoteInfo = QuantsappTestAjinkya;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18FBFDF62529D7A700D3082F /* QuantsappTestAjinkya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuantsappTestAjinkya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FBFDF92529D7A700D3082F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18FBFDFB2529D7A700D3082F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18FBFDFD2529D7A700D3082F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18FBFE002529D7A700D3082F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18FBFE022529D7AA00D3082F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18FBFE052529D7AA00D3082F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18FBFE072529D7AA00D3082F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FBFE0C2529D7AA00D3082F /* QuantsappTestAjinkyaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantsappTestAjinkyaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FBFE102529D7AA00D3082F /* QuantsappTestAjinkyaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantsappTestAjinkyaTests.swift; sourceTree = "<group>"; };
+		18FBFE122529D7AA00D3082F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FBFE172529D7AA00D3082F /* QuantsappTestAjinkyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuantsappTestAjinkyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FBFE1B2529D7AA00D3082F /* QuantsappTestAjinkyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantsappTestAjinkyaUITests.swift; sourceTree = "<group>"; };
+		18FBFE1D2529D7AA00D3082F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FBFE342529D96700D3082F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		18FBFE3F2529D9D000D3082F /* ServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FBFDF32529D7A700D3082F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FBFE092529D7AA00D3082F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FBFE142529D7AA00D3082F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FBFDED2529D7A700D3082F = {
+			isa = PBXGroup;
+			children = (
+				18FBFDF82529D7A700D3082F /* QuantsappTestAjinkya */,
+				18FBFE0F2529D7AA00D3082F /* QuantsappTestAjinkyaTests */,
+				18FBFE1A2529D7AA00D3082F /* QuantsappTestAjinkyaUITests */,
+				18FBFDF72529D7A700D3082F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FBFDF72529D7A700D3082F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FBFDF62529D7A700D3082F /* QuantsappTestAjinkya.app */,
+				18FBFE0C2529D7AA00D3082F /* QuantsappTestAjinkyaTests.xctest */,
+				18FBFE172529D7AA00D3082F /* QuantsappTestAjinkyaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FBFDF82529D7A700D3082F /* QuantsappTestAjinkya */ = {
+			isa = PBXGroup;
+			children = (
+				18FBFE332529D95800D3082F /* Utils */,
+				18FBFE302529D93300D3082F /* Models */,
+				18FBFE312529D94600D3082F /* Views */,
+				18FBFE322529D94900D3082F /* Controllers */,
+				18FBFE2C2529D8CF00D3082F /* Supporting Files */,
+				18FBFDFD2529D7A700D3082F /* ViewController.swift */,
+				18FBFDFF2529D7A700D3082F /* Main.storyboard */,
+				18FBFE022529D7AA00D3082F /* Assets.xcassets */,
+				18FBFE042529D7AA00D3082F /* LaunchScreen.storyboard */,
+				18FBFE072529D7AA00D3082F /* Info.plist */,
+			);
+			path = QuantsappTestAjinkya;
+			sourceTree = "<group>";
+		};
+		18FBFE0F2529D7AA00D3082F /* QuantsappTestAjinkyaTests */ = {
+			isa = PBXGroup;
+			children = (
+				18FBFE102529D7AA00D3082F /* QuantsappTestAjinkyaTests.swift */,
+				18FBFE122529D7AA00D3082F /* Info.plist */,
+			);
+			path = QuantsappTestAjinkyaTests;
+			sourceTree = "<group>";
+		};
+		18FBFE1A2529D7AA00D3082F /* QuantsappTestAjinkyaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18FBFE1B2529D7AA00D3082F /* QuantsappTestAjinkyaUITests.swift */,
+				18FBFE1D2529D7AA00D3082F /* Info.plist */,
+			);
+			path = QuantsappTestAjinkyaUITests;
+			sourceTree = "<group>";
+		};
+		18FBFE2C2529D8CF00D3082F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FBFDF92529D7A700D3082F /* AppDelegate.swift */,
+				18FBFDFB2529D7A700D3082F /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18FBFE302529D93300D3082F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18FBFE312529D94600D3082F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18FBFE322529D94900D3082F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18FBFE332529D95800D3082F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				18FBFE342529D96700D3082F /* Constants.swift */,
+				18FBFE3F2529D9D000D3082F /* ServiceManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18FBFDF52529D7A700D3082F /* QuantsappTestAjinkya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FBFE202529D7AA00D3082F /* Build configuration list for PBXNativeTarget "QuantsappTestAjinkya" */;
+			buildPhases = (
+				18FBFDF22529D7A700D3082F /* Sources */,
+				18FBFDF32529D7A700D3082F /* Frameworks */,
+				18FBFDF42529D7A700D3082F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuantsappTestAjinkya;
+			productName = QuantsappTestAjinkya;
+			productReference = 18FBFDF62529D7A700D3082F /* QuantsappTestAjinkya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18FBFE0B2529D7AA00D3082F /* QuantsappTestAjinkyaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FBFE232529D7AA00D3082F /* Build configuration list for PBXNativeTarget "QuantsappTestAjinkyaTests" */;
+			buildPhases = (
+				18FBFE082529D7AA00D3082F /* Sources */,
+				18FBFE092529D7AA00D3082F /* Frameworks */,
+				18FBFE0A2529D7AA00D3082F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FBFE0E2529D7AA00D3082F /* PBXTargetDependency */,
+			);
+			name = QuantsappTestAjinkyaTests;
+			productName = QuantsappTestAjinkyaTests;
+			productReference = 18FBFE0C2529D7AA00D3082F /* QuantsappTestAjinkyaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18FBFE162529D7AA00D3082F /* QuantsappTestAjinkyaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FBFE262529D7AA00D3082F /* Build configuration list for PBXNativeTarget "QuantsappTestAjinkyaUITests" */;
+			buildPhases = (
+				18FBFE132529D7AA00D3082F /* Sources */,
+				18FBFE142529D7AA00D3082F /* Frameworks */,
+				18FBFE152529D7AA00D3082F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18FBFE192529D7AA00D3082F /* PBXTargetDependency */,
+			);
+			name = QuantsappTestAjinkyaUITests;
+			productName = QuantsappTestAjinkyaUITests;
+			productReference = 18FBFE172529D7AA00D3082F /* QuantsappTestAjinkyaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FBFDEE2529D7A700D3082F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					18FBFDF52529D7A700D3082F = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					18FBFE0B2529D7AA00D3082F = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 18FBFDF52529D7A700D3082F;
+					};
+					18FBFE162529D7AA00D3082F = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 18FBFDF52529D7A700D3082F;
+					};
+				};
+			};
+			buildConfigurationList = 18FBFDF12529D7A700D3082F /* Build configuration list for PBXProject "QuantsappTestAjinkya" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18FBFDED2529D7A700D3082F;
+			productRefGroup = 18FBFDF72529D7A700D3082F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FBFDF52529D7A700D3082F /* QuantsappTestAjinkya */,
+				18FBFE0B2529D7AA00D3082F /* QuantsappTestAjinkyaTests */,
+				18FBFE162529D7AA00D3082F /* QuantsappTestAjinkyaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FBFDF42529D7A700D3082F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FBFE062529D7AA00D3082F /* LaunchScreen.storyboard in Resources */,
+				18FBFE032529D7AA00D3082F /* Assets.xcassets in Resources */,
+				18FBFE012529D7A700D3082F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FBFE0A2529D7AA00D3082F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FBFE152529D7AA00D3082F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FBFDF22529D7A700D3082F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FBFDFE2529D7A700D3082F /* ViewController.swift in Sources */,
+				18FBFDFA2529D7A700D3082F /* AppDelegate.swift in Sources */,
+				18FBFDFC2529D7A700D3082F /* SceneDelegate.swift in Sources */,
+				18FBFE352529D96700D3082F /* Constants.swift in Sources */,
+				18FBFE402529D9D000D3082F /* ServiceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FBFE082529D7AA00D3082F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FBFE112529D7AA00D3082F /* QuantsappTestAjinkyaTests.swift in Sources */,
+				18FBFE362529D96700D3082F /* Constants.swift in Sources */,
+				18FBFE412529D9D000D3082F /* ServiceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18FBFE132529D7AA00D3082F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FBFE1C2529D7AA00D3082F /* QuantsappTestAjinkyaUITests.swift in Sources */,
+				18FBFE372529D96700D3082F /* Constants.swift in Sources */,
+				18FBFE422529D9D000D3082F /* ServiceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18FBFE0E2529D7AA00D3082F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FBFDF52529D7A700D3082F /* QuantsappTestAjinkya */;
+			targetProxy = 18FBFE0D2529D7AA00D3082F /* PBXContainerItemProxy */;
+		};
+		18FBFE192529D7AA00D3082F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18FBFDF52529D7A700D3082F /* QuantsappTestAjinkya */;
+			targetProxy = 18FBFE182529D7AA00D3082F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18FBFDFF2529D7A700D3082F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FBFE002529D7A700D3082F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18FBFE042529D7AA00D3082F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18FBFE052529D7AA00D3082F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18FBFE1E2529D7AA00D3082F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18FBFE1F2529D7AA00D3082F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18FBFE212529D7AA00D3082F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCPFBKZL7W;
+				INFOPLIST_FILE = QuantsappTestAjinkya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajinkyasonar.QuantsappTestAjinkya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18FBFE222529D7AA00D3082F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YCPFBKZL7W;
+				INFOPLIST_FILE = QuantsappTestAjinkya/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajinkyasonar.QuantsappTestAjinkya;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18FBFE242529D7AA00D3082F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuantsappTestAjinkyaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajinkyasonar.QuantsappTestAjinkyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuantsappTestAjinkya.app/QuantsappTestAjinkya";
+			};
+			name = Debug;
+		};
+		18FBFE252529D7AA00D3082F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuantsappTestAjinkyaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajinkyasonar.QuantsappTestAjinkyaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QuantsappTestAjinkya.app/QuantsappTestAjinkya";
+			};
+			name = Release;
+		};
+		18FBFE272529D7AA00D3082F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuantsappTestAjinkyaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajinkyasonar.QuantsappTestAjinkyaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuantsappTestAjinkya;
+			};
+			name = Debug;
+		};
+		18FBFE282529D7AA00D3082F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuantsappTestAjinkyaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajinkyasonar.QuantsappTestAjinkyaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QuantsappTestAjinkya;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FBFDF12529D7A700D3082F /* Build configuration list for PBXProject "QuantsappTestAjinkya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FBFE1E2529D7AA00D3082F /* Debug */,
+				18FBFE1F2529D7AA00D3082F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FBFE202529D7AA00D3082F /* Build configuration list for PBXNativeTarget "QuantsappTestAjinkya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FBFE212529D7AA00D3082F /* Debug */,
+				18FBFE222529D7AA00D3082F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FBFE232529D7AA00D3082F /* Build configuration list for PBXNativeTarget "QuantsappTestAjinkyaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FBFE242529D7AA00D3082F /* Debug */,
+				18FBFE252529D7AA00D3082F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FBFE262529D7AA00D3082F /* Build configuration list for PBXNativeTarget "QuantsappTestAjinkyaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FBFE272529D7AA00D3082F /* Debug */,
+				18FBFE282529D7AA00D3082F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FBFDEE2529D7A700D3082F /* Project object */;
+}
